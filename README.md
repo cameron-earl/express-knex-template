@@ -67,4 +67,5 @@ This is a template for a full-stack project using:
   ```js
   req.session.save(err=>{ /* here */})
   ```
-  I also included an example inside the `main.index` function, though it's likely unnecessary.
+  Otherwise the session might not save before the next page is loaded. I also included an example inside the `main.index` function, though it's likely unnecessary.
+- Any files named "filler" should probably be deleted.
