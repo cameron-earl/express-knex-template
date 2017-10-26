@@ -18,7 +18,7 @@ This is a template for a full-stack project using:
 6. Create your tables:
   - knex migrate:make tablename
   - knex seed:make 0_tablename
-7. Fill in migration/seed files.
+7. Fill in migration/seed files. Example:
   ```js
   exports.up = (knex, Promise) => {  
     return knex.schema.createTable('users', table => {
@@ -67,4 +67,4 @@ This is a template for a full-stack project using:
   ```js
   req.session.save(err=>{ /* here */})
   ```
-I also included an example inside the `main.index` function, though it's likely unnecessary.
+  I also included an example inside the `main.index` function, though it's likely unnecessary.
